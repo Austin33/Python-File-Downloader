@@ -33,7 +33,7 @@ class Downloader(QDialog):
         layout.addWidget(self.progress)
         layout.addWidget(download)
 
-        self.setLayout(layout)
+        self.setLayout(layout)  
 
         self.setWindowTitle("PyDownloader")
 
